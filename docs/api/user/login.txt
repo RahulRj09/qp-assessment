@@ -1,0 +1,6 @@
+curl --location 'http://localhost:3005/api/v1/grocery/user/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "emailId": "xyz@gmail.com",
+    "md5Password": "5f4dcc3b5aa765d61d8327deb882cf99"
+}'

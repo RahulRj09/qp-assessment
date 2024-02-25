@@ -1,0 +1,10 @@
+curl --location --request PUT 'http://localhost:3005/api/v1/grocery/product/update' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbHQxNnVlMGIwMDAwcnN3bmM3bDRndGRyIiwicm9sZSI6IkFETUlOIiwic3ViIjoiY2x0MTZ1ZTBiMDAwMHJzd25jN2w0Z3RkciIsImlhdCI6MTcwODg0NjA5OSwiZXhwIjoxNzA4ODQ5Njk5LCJpc3MiOiJncm9jZXJ5LXNlcnZpY2UifQ.-H4dK9FUH5V5xi9B705Y4_BTOiEgSaGJmkU_j9rtyfw' \
+--data '{
+    "productId":"clt0lab6l0000rsjg322cceeb",
+    "name": "abc",
+    "price": 5,
+    "quantity": 10,
+    "isActive": true
+}'

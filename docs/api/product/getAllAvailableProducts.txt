@@ -1,0 +1,2 @@
+curl --location 'http://localhost:3005/api/v1/grocery/product/getAllAvailableProducts' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbHQxNnVlMGIwMDAwcnN3bmM3bDRndGRyIiwicm9sZSI6IkFETUlOIiwic3ViIjoiY2x0MTZ1ZTBiMDAwMHJzd25jN2w0Z3RkciIsImlhdCI6MTcwODg0NjA5OSwiZXhwIjoxNzA4ODQ5Njk5LCJpc3MiOiJncm9jZXJ5LXNlcnZpY2UifQ.-H4dK9FUH5V5xi9B705Y4_BTOiEgSaGJmkU_j9rtyfw'
