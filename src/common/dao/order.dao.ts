@@ -27,6 +27,7 @@ export class OrderDao {
       this.logService.info(ctx.logId, `successfully executed ${methodName}`);
       return order;
     } catch (e) {
+      
       return null;
     }
   }
